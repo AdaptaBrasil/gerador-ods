@@ -1,0 +1,107 @@
+# .gitignore para Gerador de Mosaico ODS
+
+# Dependências Node (caso adicione no futuro)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs e editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Build/Deploy (caso adicione no futuro)
+dist/
+build/
+out/
+
+# Ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Arquivos de teste
+coverage/
+*.test.js
+*.spec.js
+
+# Documentação gerada
+docs/api/
+docs/coverage/
+
+# Imagens de desenvolvimento/teste (manter apenas ODS originais)
+test-images/
+*.psd
+*.ai
+*.sketch
+
+# Arquivos pessoais
+personal/
+private/
+TODO.md
+NOTES.md
+
+# Backup
+backup/
+*.zip
+*.rar
+*.tar.gz
+
+# Python (se usar servidor local)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# macOS
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk

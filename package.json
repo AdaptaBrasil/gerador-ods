@@ -1,0 +1,30 @@
+{
+  "name": "gerador-mosaico-ods",
+  "version": "1.0.1",
+  "description": "Gerador de Mosaico com os Objetivos de Desenvolvimento Sustentável da ONU",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve",
+    "dev": "npx serve -p 3000"
+  },
+  "keywords": [
+    "ods",
+    "onu",
+    "mosaico",
+    "canvas",
+    "javascript",
+    "mvc"
+  ],
+  "author": "Flameuss",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flameuss/gerador-ods.git"
+  },
+  "bugs": {
+    "url": "https://github.com/flameuss/gerador-ods/issues"
+  },
+  "homepage": "https://flameuss.github.io/gerador-ods/",
+  "devDependencies": {},
+  "dependencies": {}
+}
