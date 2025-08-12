@@ -374,13 +374,7 @@ input[type="color"] {
         gap: 10px;
     }
     
-    .logo-title {
-        width: 120px !important;
-        height: 45px !important;
-        max-width: 120px !important;
-        max-height: 45px !important;
-        padding: 6px 8px;
-    }
+    
     
     .button-group {
         flex-direction: column;
