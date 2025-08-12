@@ -1,11 +1,14 @@
-# Gerador de Mosaico ODS - Adapta Brasil
+# Gerador de Mosaico ODS - Adapta Brasil MCTI
 
+[![GitHub Pages](https://img.shields.io/badge/demo-live-success)](https://AdaptaBrasil.github.io/gerador-ods/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.0.1-informational)](package.json)
+[![Version](https://img.shields.io/badge/version-1.0.2-informational)](package.json)
 
 Aplicação web para criar mosaicos personalizados com as imagens dos 17 Objetivos de Desenvolvimento Sustentável (ODS) da ONU.
 
 ## 📸 Demonstração
+
+[**Ver Demo Online →**](https://AdaptaBrasil.github.io/gerador-ods/)
 
 ![Preview do Gerador de Mosaico](assets/images/preview.png)
 
@@ -29,9 +32,13 @@ Aplicação web para criar mosaicos personalizados com as imagens dos 17 Objetiv
 
 ### Instalação e Uso
 
+**Acesse online:** https://AdaptaBrasil.github.io/gerador-ods/
+
+**Ou instale localmente:**
+
 ```bash
 # Clone o repositório
-git clone https://github.com/flameuss/gerador-ods.git
+git clone https://github.com/AdaptaBrasil/gerador-ods.git
 
 # Entre no diretório
 cd gerador-ods
@@ -210,16 +217,16 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## 🙏 Créditos
 
-- Projeto desenvolvido para: [Adapta Brasil](https://adaptabrasil.mcti.gov.br/)
+- Projeto desenvolvido para: [Adapta Brasil MCTI](https://adaptabrasil.mcti.gov.br/)
 - Imagens ODS: [Nações Unidas Brasil](https://brasil.un.org/pt-br/sdgs)
 - Ícones: Emojis nativos
 - Inspiração: Agenda 2030 da ONU
 
 ## 📧 Contato
 
-**Flameuss** - [GitHub](https://github.com/flameuss)
+**Adapta Brasil MCTI** - [GitHub](https://github.com/AdaptaBrasil)
 
-Link do Projeto: [https://github.com/flameuss/gerador-ods](https://github.com/flameuss/gerador-ods)
+Link do Projeto: [https://github.com/AdaptaBrasil/gerador-ods](https://github.com/AdaptaBrasil/gerador-ods)
 
 ---
 

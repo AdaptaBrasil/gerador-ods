@@ -1,6 +1,6 @@
 {
   "name": "Gerador de Mosaico ODS - Adapta Brasil",
-  "short_name": "Mosaico ODS",
+  "short_name": "Mosaico ODS MCTI",
   "description": "Crie mosaicos personalizados com os Objetivos de Desenvolvimento Sustentável",
   "start_url": "/",
   "display": "standalone",

@@ -1,19 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" style="width: 100%; height: 100%;">
-  <!-- Logo Adapta Brasil - Versão sem texto -->
-  <!-- Substituir este arquivo pela imagem real logo-adapta.png -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 100" width="300" height="100" style="width: 100%; height: 100%;">
+  <!-- Logo Adapta Brasil MCTI -->
   
-  <!-- Círculos semicirculares estilizados -->
-  <g transform="translate(100, 100)">
-    <!-- Vermelho -->
-    <path d="M 0,-80 A 80,80 0 0,1 0,80 Z" fill="#E74C3C" opacity="0.9"/>
+  <!-- Semicírculos coloridos -->
+  <g transform="translate(50, 50)">
+    <!-- Azul escuro -->
+    <path d="M -30,-25 A 25,25 0 0,1 -30,25 Z" fill="#1e3a5f" opacity="0.9" transform="translate(-10, 0)"/>
     
-    <!-- Laranja -->
-    <path d="M 0,-60 A 60,60 0 0,1 0,60 Z" fill="#F39C12" opacity="0.7" transform="translate(-20, 0)"/>
+    <!-- Azul médio -->
+    <path d="M -25,-30 A 30,30 0 0,1 -25,30 Z" fill="#4a90e2" opacity="0.8" transform="translate(-5, 0)"/>
     
     <!-- Azul claro -->
-    <path d="M 0,-40 A 40,40 0 0,1 0,40 Z" fill="#5DADE2" opacity="0.8" transform="translate(-40, 0)"/>
+    <path d="M -20,-35 A 35,35 0 0,1 -20,35 Z" fill="#7bb3e8" opacity="0.7"/>
     
-    <!-- Azul escuro -->
-    <path d="M 0,-20 A 20,20 0 0,1 0,20 Z" fill="#2C3E50" opacity="0.9" transform="translate(-60, 0)"/>
+    <!-- Laranja claro -->
+    <path d="M -15,-40 A 40,40 0 0,1 -15,40 Z" fill="#f4a582" opacity="0.8" transform="translate(5, 0)"/>
+    
+    <!-- Vermelho -->
+    <path d="M -10,-45 A 45,45 0 0,1 -10,45 Z" fill="#d73027" opacity="0.9" transform="translate(10, 0)"/>
+  </g>
+  
+  <!-- Texto Adapta Brasil -->
+  <g transform="translate(110, 35)">
+    <text font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#808080">
+      Adapta
+    </text>
+  </g>
+  
+  <g transform="translate(110, 65)">
+    <text font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#808080">
+      Brasil
+    </text>
+  </g>
+  
+  <!-- Linha horizontal -->
+  <line x1="110" y1="75" x2="280" y2="75" stroke="#808080" stroke-width="1"/>
+  
+  <!-- MCTI -->
+  <g transform="translate(110, 90)">
+    <text font-family="Arial, sans-serif" font-size="14" fill="#808080">
+      MCTI
+    </text>
   </g>
 </svg>
