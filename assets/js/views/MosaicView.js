@@ -44,6 +44,12 @@ class MosaicView {
     initializeView() {
         this.hideDownloadButton();
         this.updateOpacityDisplay(100);
+        
+        // Ocultar campo de cor se o tipo de fundo padrão for transparente
+        const backgroundType = this.elements.backgroundType.value;
+        if (backgroundType === 'transparent') {
+            this.toggleColorPicker(false);
+        }
     }
 
     /**

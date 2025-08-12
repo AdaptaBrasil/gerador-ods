@@ -144,9 +144,9 @@ class MosaicModel {
     getDefaultSettings() {
         return {
             imageSize: this.config.defaultImageSize,
-            spacing: this.config.defaultSpacing,
-            imagesPerRow: this.config.defaultImagesPerRow,
-            backgroundType: 'color',
+            spacing: 0,  // Alterado para 0
+            imagesPerRow: 7,  // Alterado para 7
+            backgroundType: 'transparent',  // Alterado para transparent
             backgroundColor: '#ffffff',
             backgroundOpacity: 1
         };

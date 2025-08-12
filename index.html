@@ -18,18 +18,29 @@
     <meta property="twitter:title" content="Gerador de Mosaico ODS">
     <meta property="twitter:description" content="Crie mosaicos personalizados com os Objetivos de Desenvolvimento Sustentável">
     
-    <title>Gerador de Mosaico ODS</title>
+    <title>Gerador de Mosaico ODS | AdaptaBrasil </title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/images/logo-adapta.svg">
+    <link rel="alternate icon" href="assets/images/logo-adapta.png">
+    <link rel="apple-touch-icon" href="assets/images/logo-adapta.png">
+    
+    <!-- Manifest para PWA -->
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- Tema de cor para navegadores móveis -->
+    <meta name="theme-color" content="#5e72e4">
     
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="assets/images/favicon.png">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>🎨 Gerador de Mosaico ODS</h1>
+            <h1>
+                <img src="assets/images/logo-adapta.svg" alt="Adapta Brasil" class="logo-title" title="Adapta Brasil">
+                Gerador de Mosaico ODS
+            </h1>
             <p>Crie mosaicos personalizados com as imagens dos Objetivos de Desenvolvimento Sustentável</p>
         </header>
 
@@ -52,11 +63,11 @@
                 <select id="imagesPerRow" aria-label="Quantidade de imagens por linha">
                     <option value="1">1 imagem</option>
                     <option value="2">2 imagens</option>
-                    <option value="3" selected>3 imagens</option>
+                    <option value="3">3 imagens</option>
                     <option value="4">4 imagens</option>
                     <option value="5">5 imagens</option>
                     <option value="6">6 imagens</option>
-                    <option value="7">7 imagens</option>
+                    <option value="7" selected>7 imagens</option>
                     <option value="8">8 imagens</option>
                     <option value="9">9 imagens</option>
                     <option value="10">10 imagens</option>
@@ -89,7 +100,7 @@
                 </label>
                 <input type="number" 
                        id="spacing" 
-                       value="10" 
+                       value="0" 
                        min="0" 
                        max="50" 
                        step="1"
@@ -102,11 +113,11 @@
                 </label>
                 <select id="backgroundType" aria-label="Tipo de fundo">
                     <option value="color">Cor sólida</option>
-                    <option value="transparent">Transparente</option>
+                    <option value="transparent" selected>Transparente</option>
                 </select>
             </div>
 
-            <div class="input-group" id="colorPickerGroup">
+            <div class="input-group" id="colorPickerGroup" style="display: none;">
                 <label for="backgroundColor">
                     Cor de fundo:
                 </label>

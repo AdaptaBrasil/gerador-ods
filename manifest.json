@@ -1,0 +1,30 @@
+{
+  "name": "Gerador de Mosaico ODS - Adapta Brasil",
+  "short_name": "Mosaico ODS",
+  "description": "Crie mosaicos personalizados com os Objetivos de Desenvolvimento Sustentável",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#5e72e4",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "assets/images/logo-adapta.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/images/logo-adapta.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/images/logo-adapta.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

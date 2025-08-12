@@ -1,14 +1,11 @@
-# 🎨 Gerador de Mosaico ODS
+# Gerador de Mosaico ODS - Adapta Brasil
 
-[![GitHub Pages](https://img.shields.io/badge/demo-live-success)](https://flameuss.github.io/gerador-ods/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/version-1.0.1-informational)](package.json)
 
 Aplicação web para criar mosaicos personalizados com as imagens dos 17 Objetivos de Desenvolvimento Sustentável (ODS) da ONU.
 
 ## 📸 Demonstração
-
-[**Ver Demo Online →**](https://flameuss.github.io/gerador-ods/)
 
 ![Preview do Gerador de Mosaico](assets/images/preview.png)
 
@@ -30,15 +27,7 @@ Aplicação web para criar mosaicos personalizados com as imagens dos 17 Objetiv
 
 ## 🚀 Início Rápido
 
-### Uso Online
-
-1. Acesse [https://flameuss.github.io/gerador-ods/](https://flameuss.github.io/gerador-ods/)
-2. Selecione as imagens desejadas (clique nas miniaturas ou digite os números)
-3. Configure o layout e estilo
-4. Clique em "Gerar Mosaico"
-5. Baixe o resultado em PNG
-
-### Instalação Local
+### Instalação e Uso
 
 ```bash
 # Clone o repositório
@@ -54,6 +43,14 @@ python -m http.server 8000
 # ou
 npx serve
 ```
+
+### Como Usar
+
+1. Abra o `index.html` no seu navegador
+2. Selecione as imagens desejadas (clique nas miniaturas ou digite os números)
+3. Configure o layout e estilo
+4. Clique em "Gerar Mosaico"
+5. Baixe o resultado em PNG
 
 ## 📂 Estrutura do Projeto
 
@@ -83,8 +80,7 @@ gerador-ods/
 │           ├── 2.png
 │           └── ...
 └── docs/                     # Documentação adicional
-    ├── ARCHITECTURE.md       # Arquitetura MVC
-    └── DEPLOY.md            # Guia de deploy
+    └── ARCHITECTURE.md       # Arquitetura MVC
 
 ```
 
@@ -157,24 +153,6 @@ O projeto segue o padrão **Model-View-Controller (MVC)**:
 - **Canvas API**: Renderização de imagens
 - **Web APIs**: FileReader, Blob
 
-## 📦 Deploy no GitHub Pages
-
-```bash
-# 1. Crie um repositório no GitHub
-# 2. Faça push do código
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/flameuss/gerador-ods.git
-git push -u origin main
-
-# 3. Ative GitHub Pages
-# Settings > Pages > Source: Deploy from branch > Main > / (root)
-
-# 4. Aguarde alguns minutos
-# Acesse: https://flameuss.github.io/gerador-ods/
-```
-
 ## 🔧 Configuração Avançada
 
 ### Adicionar Novas Imagens
@@ -232,6 +210,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## 🙏 Créditos
 
+- Projeto desenvolvido para: [Adapta Brasil](https://adaptabrasil.mcti.gov.br/)
 - Imagens ODS: [Nações Unidas Brasil](https://brasil.un.org/pt-br/sdgs)
 - Ícones: Emojis nativos
 - Inspiração: Agenda 2030 da ONU

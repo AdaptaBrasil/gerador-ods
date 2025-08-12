@@ -31,11 +31,33 @@ header h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.logo-title {
+    width: 47px;
+    height: 47px;
+    object-fit: contain;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+    animation: fadeIn 0.5s ease-in;
+    display: inline-block;
+    vertical-align: middle;
+    transition: transform 0.3s ease;
+    margin-right: 8px;
+}
+
+.logo-title:hover {
+    transform: scale(1.1) rotate(5deg);
 }
 
 header p {
     font-size: 1.1rem;
     opacity: 0.95;
+    margin: 0;
 }
 
 .controls {
@@ -310,6 +332,17 @@ input[type="color"] {
     to { transform: rotate(360deg); }
 }
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 .error-message {
     background: #f8d7da;
     color: #721c24;
@@ -331,6 +364,12 @@ input[type="color"] {
 @media (max-width: 768px) {
     header h1 {
         font-size: 1.8rem;
+        gap: 10px;
+    }
+    
+    .logo-title {
+        width: 38px;
+        height: 38px;
     }
     
     .button-group {

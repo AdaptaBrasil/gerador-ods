@@ -67,6 +67,7 @@ personal/
 private/
 TODO.md
 NOTES.md
+DEPLOY-*.md
 
 # Backup
 backup/
