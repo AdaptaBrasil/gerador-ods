@@ -23,7 +23,7 @@ body {
 header {
     background: linear-gradient(135deg, #5e72e4 0%, #825ee4 100%);
     color: white;
-    padding: 30px;
+    padding: 35px 30px;
     text-align: center;
 }
 
@@ -39,22 +39,27 @@ header h1 {
 }
 
 .logo-title {
-    width: 47px !important;
-    height: 47px !important;
-    max-width: 47px !important;
-    max-height: 47px !important;
+    width: 134px !important;
+    height: 90px !important;
+    max-width: 134px !important;
+    max-height: 90px !important;
     object-fit: contain;
     filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
     animation: fadeIn 0.5s ease-in;
     display: inline-block;
     vertical-align: middle;
     transition: transform 0.3s ease;
-    margin-right: 8px;
+    margin-right: 15px;
     flex-shrink: 0;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .logo-title:hover {
-    transform: scale(1.1) rotate(5deg);
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 header p {
@@ -371,10 +376,11 @@ input[type="color"] {
     }
     
     .logo-title {
-        width: 38px !important;
-        height: 38px !important;
-        max-width: 38px !important;
-        max-height: 38px !important;
+        width: 112px !important;
+        height: 74px !important;
+        max-width: 112px !important;
+        max-height: 74px !important;
+        padding: 8px;
     }
     
     .button-group {
