@@ -6,7 +6,7 @@
 class MosaicModel {
     constructor() {
         this.config = {
-            imageFormat: 'png',
+            imageFormat: 'svg',
             availableImages: 17,
             imagePath: 'assets/images/ods/',
             defaultImageSize: 200,

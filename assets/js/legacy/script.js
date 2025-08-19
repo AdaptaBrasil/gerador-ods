@@ -1,6 +1,6 @@
 // Configuração inicial
 const config = {
-    imageFormat: 'png',
+    imageFormat: 'svg',
     availableImages: 17
 };
 
@@ -40,7 +40,7 @@ function displayAvailableImages() {
         thumbContainer.title = `Imagem ${i}`;
         
         const img = document.createElement('img');
-        img.src = `img/${i}.png`;
+        img.src = `assets/images/ods/${i}.svg`;
         img.alt = `ODS ${i}`;
         
         const number = document.createElement('span');
@@ -190,7 +190,7 @@ function parseImageNumbers() {
 
 // Carregar imagens
 function loadImages(imageNumbers) {
-    return Promise.all(imageNumbers.map(num => loadImage(`img/${num}.png`)));
+    return Promise.all(imageNumbers.map(num => loadImage(`assets/images/ods/${num}.svg`)));
 }
 
 // Carregar uma imagem

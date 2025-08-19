@@ -81,7 +81,7 @@ class MosaicView {
         container.title = `Imagem ${imageNumber}`;
         
         const img = document.createElement('img');
-        img.src = `${imagePath}${imageNumber}.png`;
+        img.src = `${imagePath}${imageNumber}.svg`;
         img.alt = `ODS ${imageNumber}`;
         
         const number = document.createElement('span');

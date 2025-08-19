@@ -1,6 +1,6 @@
 {
   "name": "gerador-mosaico-ods",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Gerador de Mosaico com os Objetivos de Desenvolvimento Sustentável da ONU",
   "main": "index.html",
   "scripts": {
@@ -15,14 +15,14 @@
     "javascript",
     "mvc"
   ],
-  "author": "Flameuss",
+  "author": "Adapta Brasil MCTI",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/flameuss/gerador-ods.git"
+    "url": "git+https://github.com/AdaptaBrasil/gerador-ods.git"
   },
   "bugs": {
-    "url": "https://github.com/flameuss/gerador-ods/issues"
+    "url": "https://github.com/AdaptaBrasil/gerador-ods/issues"
   },
   "devDependencies": {},
   "dependencies": {}
