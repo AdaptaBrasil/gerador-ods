@@ -26,6 +26,7 @@ e este projeto segue [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - Mantido logo PNG no cabeçalho para compatibilidade
 
 ### 📦 Assets
+- ✅ **NOVO**: Imagem de preview (preview.png) para documentação
 - ✅ Mantidas 17 imagens SVG dos ODS (1.svg a 17.svg)
 - ✅ Backup das imagens PNG originais em `ods-old/`
 - ✅ Logo Adapta Brasil mantido em PNG
